@@ -1,0 +1,26 @@
+.result{
+    width: 480px;
+    background-color: rgb(97, 121, 218);
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.result__btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            background-color: rgb(82, 82, 158);
+        }
+    }
+}

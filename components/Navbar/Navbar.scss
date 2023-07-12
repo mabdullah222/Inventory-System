@@ -1,0 +1,73 @@
+.app__navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.25);
+}
+
+.app__navbar-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+    img{
+        width: 90px;
+        height: 40px;
+        @media screen and (min-width:2000px) {
+            width: 180px;
+            height: 40px;
+        }
+    }
+}
+
+.p-text
+{
+    color: gray;
+    cursor: pointer;
+
+    &:hover{
+        color: rgba(122, 122, 229, 0.731);
+    }
+}
+
+.app__navbar__cart{
+    margin-left: 150px;
+}
+
+.result__btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    button{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        &:hover{
+            background-color: rgb(82, 82, 158);
+        }
+    }
+}
+.bill__container{
+    width: 480px;
+    background-color: rgb(97, 121, 218);
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.bill__container-data
+{
+    display: flex;
+    flex-direction: column;
+    
+}

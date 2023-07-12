@@ -1,0 +1,30 @@
+.ProductTable{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 100%;
+    @media screen  and (max-width:"600px") {
+        width: 100%;
+    }
+    h1{
+        font-weight: 900;
+        font-size: larger;
+        text-align: center;
+    }
+    table{
+        width: 100%;
+        border: 3px solid gray;
+        border-radius: 10px;
+        td{
+            padding: 10px;
+        }
+        tr{
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: rgb(147, 147, 233);
+        }
+    }
+}
